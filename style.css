@@ -1,0 +1,99 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    /* 
+    font-family: 'Yeseva One', cursive;
+ */
+}
+section{
+    display: flex;
+    margin: 2%;
+}
+.third-width{
+    width: 50%;
+    padding: 7%;
+
+}
+.third-width img{
+    width: 100%;
+    position: relative;
+    bottom: 20%;
+    
+}
+
+.heading-border{
+    font-size: 25px;
+    border-left: 3px solid rgb(235, 38, 38);
+    padding-left: 10px;
+    font-family: 'Yeseva One', cursive;
+}
+span{
+    color: orange;
+}
+button{
+    color: white;
+    border: none;
+    background-color: #FF5959;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.missions{
+    background-color: #3cb3c14b;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px;
+}
+.missions img{
+    width: 50%;
+}
+
+.develop-part{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+.develop-img{
+    width: 40%;
+}
+.develop-img img{
+    width: 70%;
+}
+.develop-text{
+    width: 60%;
+    
+}
+.app-img{
+    width: 50%;
+    padding: 10%;
+    background-image: url(media/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 50px 170px;
+
+}
+.app-img img{
+    width: 70%;
+}
+.app-text{
+    width: 60%;
+    margin-top: 16%;
+
+}
+
+footer{
+    text-align: center;
+    color: rgb(178, 178, 178);
+    background-color: black;
+    padding: 2%;
+}
+footer h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
